@@ -1,0 +1,81 @@
+<!-- 
+  Multiple of 5 - Ejercicios Javascript Basicos 
+  YouTube: https://youtu.be/vqRk1j_6XaY
+  playlist: https://fgp.one/javascript-challenges
+  LIVE DEMO: https://frank-gp.github.io/javascript-challenges/202305_multiple-of-5
+  GitHub: https://github.com/frank-gp/javascript-challenges/blob/main/202305_multiple-of-5.html  
+ -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multiple of 5 | JavaScript Coding Challenges for Beginners</title>
+    <link rel="stylesheet" href="https://frank-gp.github.io/lib/css/dark.css" />
+  </head>
+  <body>
+    <input type="text" />
+    <p>is it a multiple of 5?</p>
+
+    <script>
+      let input = document.querySelector("input");
+      let p = document.querySelector("p");
+
+      input.onchange = function () {
+        inputValue = input.value;
+        if (inputValue % 5 == 0) {
+          p.textContent = `${inputValue} is a multiple of 3`;
+        } else {
+          p.textContent = `${inputValue} is not a multiple of 3`;
+        }
+      };
+    </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== ignore this... ========== -->
+<foot id="ignore this">
+  <script src="https://frank-gp.github.io/lib/social/youtube.js" data-youtube="https://youtu.be/vqRk1j_6XaY" defer></script>
+  <script src="https://frank-gp.github.io/lib/js/head.js" defer></script>
+</foot>
+<!-- ========== ignore this. ========== -->

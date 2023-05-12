@@ -1,0 +1,85 @@
+<!-- 
+  DOM - Ejercicios Javascript Nivel Principiantes | oninput 
+  YouTube: https://youtu.be/vqRk1j_6XaY
+  playlist: https://youtube.com/playlist?list=PLn8f4HjsIz0kaQlRJosoLwHXSoTqYY3mE
+  LIVE DEMO: https://frank-gp.github.io/javascript-challenges/202305_oninput
+  GitHub: https://github.com/frank-gp/javascript-challenges/blob/main/202305_oninput.html  
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Coding Challenges for Beginners</title>
+    <style>
+      :root {
+        background: #302;
+        color: bisque;
+        text-align: center;
+        margin: calc(15%);
+        font: 2em verdana;
+      }
+      * {
+        text-align: inherit;
+        font: inherit;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" placeholder="input" />
+    <p id="output">output</p>
+
+    <script>
+      const input = document.querySelector("input");
+      const output = document.querySelector("#output");
+
+      input.oninput = function () {
+        output.textContent = input.value;
+      };
+    </script>
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ========== ignore this... ========== -->
+<foot id="ignore this"> 
+  <script src="https://frank-gp.github.io/lib/social/youtube.js" data-youtube="https://youtu.be/vqRk1j_6XaY" defer></script>
+  <script src="https://frank-gp.github.io/lib/js/head.js" defer></script>
+</foot>
+<!-- ========== ignore this. ========== -->
